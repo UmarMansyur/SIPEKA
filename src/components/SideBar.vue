@@ -7,7 +7,7 @@
       <div id="sidebar-menu">
         <!-- Left Menu Start -->
         <ul class="metismenu list-unstyled" id="side-menu">
-          <li class="mb-4 mt-3" id="thumbnail">
+          <li class="mt-3" id="thumbnail">
             <a href="index.html" class="waves-effect text-center">
               <img src="https://api.unira.ac.id/img/profil/mhs/8e35dc4c9c4b61b341800d1ef1f10eba.jpg" alt="gambar-thumbnail" class="rounded-circle img-thumbnail avatar-xxl">
             </a>
@@ -30,11 +30,11 @@
               <span data-key="t-dashboard">Transaksi</span>
             </RouterLink>
           </li>
-          <li>
-            <a href="index.html">
-              <i data-feather="database"></i>
-              <span data-key="t-dashboard">Manajemen Stok</span>
-            </a>
+          <li :class="{'mm-active' : $route.path === '/manajemen-kartu'}">
+            <RouterLink to="/manajemen-kartu">
+              <i data-feather="command"></i>
+              <span data-key="t-dashboard">Manajemen Kartu</span>
+            </RouterLink>
           </li>
           <li>
             <a href="index.html">

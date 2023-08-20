@@ -71,7 +71,7 @@ function chartCard() {
     // lebar bar chart
     plotOptions: {
       bar: {
-        columnWidth: '20%',
+        columnWidth: '50%',
       }
     },
   };

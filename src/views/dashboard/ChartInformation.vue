@@ -26,7 +26,7 @@
         <div class="card-body">
           <div class="d-flex align-items-center">
             <div class="flex-grow-1">
-              <span class="mb-3 lh-1 d-block text-dark">Pendapatan</span>
+              <span class="mb-3 lh-1 d-block text-dark">Stok</span>
               <h4 class="mb-3">
                 <span>Rp. 100.000</span>
               </h4>
@@ -47,7 +47,7 @@
         <div class="card-body">
           <div class="d-flex align-items-center">
             <div class="flex-grow-1">
-              <span class="mb-3 lh-1 d-block text-dark">Pendapatan</span>
+              <span class="mb-3 lh-1 d-block text-dark">Keuntungan</span>
               <h4 class="mb-3">
                 <span>Rp. 100.000</span>
               </h4>

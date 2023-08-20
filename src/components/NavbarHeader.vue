@@ -49,4 +49,11 @@
 
 <script setup lang="ts">
 import { toogleSidebar } from '../helpers/toogleSidebar';
+import { onMounted } from 'vue';
+
+onMounted(()=> {
+  if(window.innerWidth < 922){
+    toogleSidebar();
+  }
+})
 </script>

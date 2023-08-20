@@ -16,6 +16,14 @@ const routes: Array<RouteRecordRaw> = [
       title: 'Transaksi'
     },
     component: () => import("../views/transaction/Index.vue"),
+  },
+  {
+    path: '/manajemen-kartu',
+    name: 'Manajemen Kartu',
+    meta: {
+      title: 'Manajemen Kartu'
+    },
+    component: () => import("../views/card/Index.vue"),
   }
 ];
 
