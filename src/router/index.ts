@@ -24,6 +24,22 @@ const routes: Array<RouteRecordRaw> = [
       title: 'Manajemen Kartu'
     },
     component: () => import("../views/card/Index.vue"),
+  },
+  {
+    path: '/laporan',
+    name: 'Laporan',
+    meta: {
+      title: 'Laporan'
+    },
+    component: () => import("../views/report/Index.vue"),
+  },
+  {
+    path: '/catatan',
+    name: 'Catatan',
+    meta: {
+      title: 'Catatan'
+    },
+    component: () => import("../views/note/Index.vue"),
   }
 ];
 
@@ -32,7 +48,7 @@ const router = createRouter({
   routes,
 });
 
-router.beforeEach((to, from, next) => {
+router.beforeEach((to, _from, next) => {
   document.title = `${to.meta.title} | SIPEKA`
   next()
 })

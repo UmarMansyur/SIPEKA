@@ -38,7 +38,7 @@
           <span class="d-none d-xl-inline-block ms-1 fw-medium">Khana Zulfana Imam</span>
         </button>
       </div>
-      <div class="dropdown d-inline-block mx-2">
+      <div class="dropdown d-inline-block ms-2">
         <button class="btn header-item noti-icon position-relative">
           <i data-feather="power"></i>
         </button>

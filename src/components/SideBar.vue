@@ -36,17 +36,17 @@
               <span data-key="t-dashboard">Manajemen Kartu</span>
             </RouterLink>
           </li>
-          <li>
-            <a href="index.html">
+          <li :class="{'mm-active' : $route.path === '/laporan'}">
+            <RouterLink to="/laporan">
               <i data-feather="file-text"></i>
               <span data-key="t-dashboard">Laporan</span>
-            </a>
+            </RouterLink>
           </li>
-          <li>
-            <a href="index.html">
+          <li :class="{'mm-active' : $route.path === '/catatan'}">
+            <RouterLink to="/catatan">
               <i data-feather="edit-3"></i>
               <span data-key="t-dashboard">Catatan</span>
-            </a>
+            </RouterLink>
           </li>
           <li>
             <a href="javascript: void(0);" class="has-arrow">
